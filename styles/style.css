@@ -1,0 +1,263 @@
+@import url(./fonts.css);
+*{
+    font-family: "Golos-Text";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    font-weight: 500;
+}
+body{
+    background-color: #222;
+}
+.nav-link {
+    color: #ffffff;
+}
+.men .container {
+    background-image:  url(../img/1.jpg);
+    height: 700px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.container .film h2{
+    font-weight: 700;
+    font-size: 65px;
+    
+}
+.container .film .d-flex h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #f0f0f0;
+    font-weight: 600;
+    margin-left: 0;
+    margin-top: 11px;
+}
+.container .film .d-flex p{
+    font-size: 16px;
+    color: #919192;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.plus{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.row .btn1-primary{
+    background-color: rgb(12, 92, 230);
+    color: #ffffff;
+    width: 230px;
+}
+.row .btn2-primary{
+    background-color: rgb(12, 6, 71);
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    
+    
+    
+}
+.row .btn3-primary{
+    background-color: rgb(12, 6, 71);
+    color: #ffffff;
+    width: 12%;
+    
+    
+}
+.opis{
+    font-size: 19px;
+}
+.podbr .card {
+    background-color: transparent;
+    border: 0px;
+    
+}
+.nazvan {
+    margin: 70px 0px 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+
+}
+
+.card-zagolovok{
+    color: #ffffff;
+    font-weight: 600;
+    margin: -5px -15px 0px;
+    font-size: 18px;
+}
+.vnutr{
+    color: #919192;
+    margin: 0px -15px 0px;
+}
+.podbr .card img {
+    border-radius: 0.35rem!important;
+
+}
+.cosmonaft .container {
+    background-image:  url(../img/6.jpg);
+    height:550px;
+    background-size: cover;
+    border-radius: 9px;
+    margin-top: 90px;
+
+}
+.cosmonaft .container button{
+    margin-top: 50px;
+    
+}
+.cosmonaft .row .btn1-primary{
+    padding: .5rem .5rem;
+    padding-top: .85rem;
+    padding-right: .85rem;
+    padding-bottom: .85rem;
+    padding-left: .85rem;
+}
+.bess .container {
+    margin-top: 100px;
+}
+.btn-primary{
+    background-color: #fc5000;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 230px;
+    border-color: #fc5000;
+    transition: block;
+    border: 0px;
+    
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fc5000;
+    border-color: #fc5000!important;
+}
+.bess .film h2{
+    margin-top: 25px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bess .card{
+    background-color: #ffffff00;
+}
+.bess .card img {
+    border-radius: 8px;
+    
+    
+}
+.acord .container{
+    margin-top: 30px;
+}
+.acord .card{
+    background-color: #ffffff00;
+    border: 0px;
+}
+.acord .film .d-flex h3 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 12.5px;
+
+
+}
+.acord .film .d-flex p{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.acord .film{
+    margin-left: -16px;
+}
+.acord .card .card-body .card img{
+    border-radius: 8px;
+}
+.comp{
+    background-color: #fff;
+    
+}
+.comp .col-sm-6 {
+    margin-top: 8%;
+}
+.comp .card{
+    border: 0px;
+}
+.comp .card-title1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.comp .card-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+.comp .card-text p{
+    margin-bottom: 0rem;
+}
+.comp .card-title{
+    font-weight: 700;
+    font-size: 50px;
+    color:  rgb(12, 92, 230);
+}
+.card .card-body p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.title-pod h2{
+    color: #f0f0f0;
+    font-weight: 700;
+    font-size: 50px;
+}
+.title-pod p{
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.title-pod {
+    margin-top: 5%;
+}
+.podp .card1{
+    background-color: #ffffff00;
+}
+.form-control{
+    background-color: #ffffff00;
+}
+.form-label{
+    color: #f0f0f0;
+
+}
+.form-check-label{
+    color: #f0f0f0;
+}
+.col-form-label{
+    color: #f0f0f0;
+}
+.podp .card{
+    background-color: rgb(37, 31, 90);
+    
+}
+.card-body12{
+    color: #f0f0f0;
+}
+.card-body12 h5{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 15px;
+}
+.card-body12 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+footer{
+    background-color: #919192;
+    margin-top: 60px;
+}
